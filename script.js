@@ -16,7 +16,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	getPerimeter(){
 		this._getPerimeter = 4*this._width;
 		return this._getPerimeter;
